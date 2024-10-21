@@ -1,4 +1,42 @@
 /* styles.css */
 body {
     background-color: #FFF8ED;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "content";
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    grid-area: content;
+    display: grid;
+}
+
+.header-container > h1 {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.para-container {
+    width: 50%;
+    justify-self: center;
+}
+
+.para-container > p {
+    text-align: center;
+}
+
+.hours-container > *,
+.location-container > * {
+    text-align: center;
 }
