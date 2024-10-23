@@ -1,4 +1,4 @@
-import milkshakeImage from "../images/milkshake.jpg";
+import milkshakeImage from "../images/milkshakes2.jpg";
 
 const loadPage = function () {
     const content = document.querySelector('#content');
@@ -16,8 +16,8 @@ const loadPage = function () {
     const image = document.createElement('img');
     image.src = milkshakeImage;
     image.setAttribute('alt', 'restaurant-image');
-    image.setAttribute('width', '350px');
-    image.setAttribute('height', '300px');
+    image.setAttribute('width', '450px');
+    image.setAttribute('height', '250px');
 
     const para = document.createElement('p');
     para.textContent = "Kyle's has the best milkshakes in town! Whether it's the strawberry, chocolate, or vanilla flavour, Kyle's will not disappoint. On top of that, they have so many more flavours to choose from and you will feel right at home in this lovely milkshake bar. Seriously, try one of Kyle's milkshakes today!";
