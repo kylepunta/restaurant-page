@@ -76,3 +76,7 @@ nav {
 .location-container {
     padding: 20px 26px;
 }
+
+button:hover {
+    cursor: pointer;
+}
