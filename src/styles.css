@@ -31,6 +31,7 @@ header {
 .para-container {
     width: 50%;
     justify-self: center;
+    padding: 20px 82px;
 }
 
 .para-container > p {
@@ -59,4 +60,19 @@ nav {
 .image-container > img {
     border: 2px solid #FFF;
     border-radius: 16px;
+}
+
+.para-container,
+.hours-container,
+.location-container {
+    margin-top: 22px;
+    border: 6px outset #FFAFAF;
+    border-radius: 16px;
+    width: 50%;
+    justify-self: center;
+    box-sizing: border-box;
+}
+
+.location-container {
+    padding: 20px 26px;
 }
