@@ -40,3 +40,13 @@ header {
 .location-container > * {
     text-align: center;
 }
+
+button {
+    padding: 10px 40px;
+    font-size: 22px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
