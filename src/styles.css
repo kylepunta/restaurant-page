@@ -64,7 +64,8 @@ nav {
 
 .para-container,
 .hours-container,
-.location-container {
+.location-container,
+.contact-container {
     margin-top: 22px;
     border: 6px outset #FFAFAF;
     border-radius: 16px;
@@ -79,4 +80,22 @@ nav {
 
 button:hover {
     cursor: pointer;
+}
+
+button:focus {
+    background-color: #ff9bad;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 40px;
+}
+
+.contact-container > p {
+    padding-left: 10px;
+}
+
+.contact-container > h3 {
+    margin: 16px 0px;
 }
