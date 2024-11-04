@@ -1,3 +1,3 @@
 import "./styles.css";
-import { loadPage } from "./page-load";
-loadPage();
+import { loadContactPage } from "./contact-page";
+loadContactPage();
