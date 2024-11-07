@@ -65,7 +65,8 @@ nav {
 .para-container,
 .hours-container,
 .location-container,
-.contact-container {
+.contact-container,
+.menu-container {
     margin-top: 22px;
     border: 6px outset #FFAFAF;
     border-radius: 16px;
@@ -98,4 +99,19 @@ button:focus {
 
 .contact-container > h3 {
     margin: 16px 0px;
+}
+
+.menu-container > h2 {
+    text-align: center;
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 1fr;
+}
+
+.menu-container > h3 {
+    margin: 16px;
 }
